@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-console.log(process.env.PORT );
+console.log(process.env.dbUrl );
 const dbUrl = process.env.dbUrl || 'mongodb://localhost:27017/React_Blog_Backend';
 mongoose.Promise = global.Promise;
 mongoose.connect(dbUrl);
