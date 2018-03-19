@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', (req,res)=>res.send(process.env));
+app.use('/', index);
 
 //Routes
 app.get('/api/posts', fetchAllPost);

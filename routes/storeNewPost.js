@@ -7,7 +7,6 @@ router.use('/',(req, res, next)=>{
     var {title,categories,content} = req.body;
     var id = getId();
 
-
     var blogItem =new Blog({
         id,
         title ,
