@@ -4,7 +4,7 @@ var {Blog} = require('../models/blog');
 
 /* GET home page. */
 router.use('/',(req, res, next)=>{
-    res.send(process.env);
+
     Blog.find().then((posts)=>{
         res.send(posts);
     },(err)=>{
