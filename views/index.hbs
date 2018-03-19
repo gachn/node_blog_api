@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GettingStarted</title>
+    <link rel="stylesheet" media="screen" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+</head>
+<body>
+
+<div class="container">
+    <h3>Redux Blog Post API Reference</h3>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Endpoint</th>
+            <th>Method</th>
+            <th>Example</th>
+            <th>Sample Response</th>
+            <th>Description</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><i>/api/posts</i></td>
+            <td>GET</td>
+            <td>http://reduxblog.herokuapp.com/api/posts</td>
+            <td>
+<pre>
+[
+  { id: 1,
+    title: 'Hi!',
+    categories: 'Computer, Friends',
+    content: 'Post about Friends'
+  },
+  {
+    id: 2,
+    title: 'New Post',
+    categories: 'Candy',
+    content: 'Post about Candy'
+  }
+]
+</pre>
+            </td>
+            <td>
+                Fetches the 40 most recent posts in the database.
+                Note this list is occasionally cleaned out.</td>
+        </tr>
+        <tr>
+            <td><i>/api/posts</i></td>
+            <td>POST</td>
+            <td>http://reduxblog.herokuapp.com/api/posts</td>
+            <td>
+<pre>
+{
+  id: 1,
+  title: 'Hi!',
+  categories: 'Computer, Friends',
+  content: 'Blog post content'
+}
+</pre>
+            </td>
+            <td>Creates a new blog post entry. Returns the created blog post with the ID</td>
+        </tr>
+        <tr>
+            <td><i>/api/posts/:id</i></td>
+            <td>GET</td>
+            <td>http://reduxblog.herokuapp.com/api/posts/5</td>
+            <td>
+<pre>
+{
+  id: 1,
+  title: 'Hi!',
+  categories: 'Computer, Friends',
+  content: 'Blog post content'
+}
+</pre>
+            </td>
+            <td>Fetches a single blog post with the given ID.  Includes the blog's content.</td>
+        </tr>
+        <tr>
+            <td><i>/api/posts/:id</i></td>
+            <td>DELETE</td>
+            <td>http://reduxblog.herokuapp.com/api/posts/5</td>
+            <td>
+<pre>
+  {
+    id: 1,
+    title: 'Hi!',
+    categories: 'Computer, Friends',
+    content: 'Blog post content'
+  }
+</pre>
+            </td>
+            <td>Deletes a single blog post with the given ID. Returns the post</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+</body>
+</html>

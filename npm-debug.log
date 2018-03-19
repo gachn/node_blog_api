@@ -1,0 +1,719 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongoose-shortid',
+1 verbose cli   '--save' ]
+2 info using npm@4.1.2
+3 info using node@v7.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongoose-shortid
+8 silly fetchNamedPackageData mongoose-shortid
+9 silly mapToRegistry name mongoose-shortid
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'mongoose-shortid',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'mongoose-shortid',
+12 silly mapToRegistry   name: 'mongoose-shortid',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/mongoose-shortid
+14 verbose request uri https://registry.npmjs.org/mongoose-shortid
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 6:27:30 PM
+17 verbose request id b1c7ba68c1f6873d
+18 verbose etag "57f3cfc9-23df"
+19 verbose lastModified Tue, 4 Oct 2016 15:50:33 GMT
+20 http request GET https://registry.npmjs.org/mongoose-shortid
+21 http 304 https://registry.npmjs.org/mongoose-shortid
+22 verbose headers { date: 'Sun, 18 Mar 2018 12:57:38 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: '"57f3cfc9-23df"',
+22 verbose headers   age: '52',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1521377859.625648,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding, Accept' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 18 Mar 2018 12:57:38 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: '"57f3cfc9-23df"',
+23 silly get     age: '52',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sin18023-SIN',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1521377859.625648,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding, Accept' } ]
+24 verbose etag https://registry.npmjs.org/mongoose-shortid from cache
+25 verbose get saving mongoose-shortid to C:\Users\Gaurav\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose-shortid\.cache.json
+26 verbose correctMkdir C:\Users\Gaurav\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule mongoose-shortid@0.4.2 checking installable status
+40 silly cache add args [ 'mongoose-shortid', null ]
+41 verbose cache add spec mongoose-shortid
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'mongoose-shortid',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'mongoose-shortid',
+42 silly cache add   name: 'mongoose-shortid',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed mongoose-shortid@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for mongoose-shortid
+45 info addNameTag [ 'mongoose-shortid', 'latest' ]
+46 silly mapToRegistry name mongoose-shortid
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'mongoose-shortid',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'mongoose-shortid',
+49 silly mapToRegistry   name: 'mongoose-shortid',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/mongoose-shortid
+51 verbose addNameTag registry:https://registry.npmjs.org/mongoose-shortid not in flight; fetching
+52 verbose get https://registry.npmjs.org/mongoose-shortid not expired, no request
+53 silly addNameTag next cb for mongoose-shortid with tag latest
+54 silly addNamed mongoose-shortid@0.4.2
+55 verbose addNamed "0.4.2" is a plain semver version for mongoose-shortid
+56 silly cache afterAdd mongoose-shortid@0.4.2
+57 verbose afterAdd C:\Users\Gaurav\AppData\Roaming\npm-cache\mongoose-shortid\0.4.2\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\Gaurav\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\Gaurav\AppData\Roaming\npm-cache\mongoose-shortid\0.4.2\package\package.json written
+60 silly fetchNamedPackageData bignum
+61 silly mapToRegistry name bignum
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'bignum',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'bignum',
+64 silly mapToRegistry   name: 'bignum',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/bignum
+66 verbose request uri https://registry.npmjs.org/bignum
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 6:27:31 PM
+69 verbose etag "5aa38304-a9c0"
+70 verbose lastModified Sat, 10 Mar 2018 7:02:28 GMT
+71 http request GET https://registry.npmjs.org/bignum
+72 http 304 https://registry.npmjs.org/bignum
+73 verbose headers { date: 'Sun, 18 Mar 2018 12:57:38 GMT',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   etag: '"5aa38304-a9c0"',
+73 verbose headers   age: '50',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'x-served-by': 'cache-sin18023-SIN',
+73 verbose headers   'x-cache': 'HIT',
+73 verbose headers   'x-cache-hits': '1',
+73 verbose headers   'x-timer': 'S1521377859.915940,VS0,VE1',
+73 verbose headers   vary: 'Accept-Encoding, Accept' }
+74 silly get cb [ 304,
+74 silly get   { date: 'Sun, 18 Mar 2018 12:57:38 GMT',
+74 silly get     via: '1.1 varnish',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     etag: '"5aa38304-a9c0"',
+74 silly get     age: '50',
+74 silly get     connection: 'keep-alive',
+74 silly get     'x-served-by': 'cache-sin18023-SIN',
+74 silly get     'x-cache': 'HIT',
+74 silly get     'x-cache-hits': '1',
+74 silly get     'x-timer': 'S1521377859.915940,VS0,VE1',
+74 silly get     vary: 'Accept-Encoding, Accept' } ]
+75 verbose etag https://registry.npmjs.org/bignum from cache
+76 verbose get saving bignum to C:\Users\Gaurav\AppData\Roaming\npm-cache\registry.npmjs.org\bignum\.cache.json
+77 verbose correctMkdir C:\Users\Gaurav\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+78 silly pickManifestFromRegistryMetadata spec >=0.6.1 <0.7.0 tag latest versions [ '0.4.0',
+78 silly pickManifestFromRegistryMetadata   '0.4.1',
+78 silly pickManifestFromRegistryMetadata   '0.5.0',
+78 silly pickManifestFromRegistryMetadata   '0.5.1',
+78 silly pickManifestFromRegistryMetadata   '0.5.2',
+78 silly pickManifestFromRegistryMetadata   '0.5.3',
+78 silly pickManifestFromRegistryMetadata   '0.5.4',
+78 silly pickManifestFromRegistryMetadata   '0.6.0',
+78 silly pickManifestFromRegistryMetadata   '0.6.1',
+78 silly pickManifestFromRegistryMetadata   '0.6.2',
+78 silly pickManifestFromRegistryMetadata   '0.7.0',
+78 silly pickManifestFromRegistryMetadata   '0.8.0',
+78 silly pickManifestFromRegistryMetadata   '0.9.0',
+78 silly pickManifestFromRegistryMetadata   '0.9.1',
+78 silly pickManifestFromRegistryMetadata   '0.9.2',
+78 silly pickManifestFromRegistryMetadata   '0.9.3',
+78 silly pickManifestFromRegistryMetadata   '0.10.0',
+78 silly pickManifestFromRegistryMetadata   '0.10.1',
+78 silly pickManifestFromRegistryMetadata   '0.10.2',
+78 silly pickManifestFromRegistryMetadata   '0.11.0',
+78 silly pickManifestFromRegistryMetadata   '0.12.0',
+78 silly pickManifestFromRegistryMetadata   '0.12.1',
+78 silly pickManifestFromRegistryMetadata   '0.12.2',
+78 silly pickManifestFromRegistryMetadata   '0.12.3',
+78 silly pickManifestFromRegistryMetadata   '0.12.4',
+78 silly pickManifestFromRegistryMetadata   '0.12.5' ]
+79 silly resolveWithNewModule bignum@0.6.2 checking installable status
+80 silly cache add args [ 'bignum@~0.6.1', null ]
+81 verbose cache add spec bignum@~0.6.1
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'bignum@~0.6.1',
+82 silly cache add   scope: null,
+82 silly cache add   escapedName: 'bignum',
+82 silly cache add   name: 'bignum',
+82 silly cache add   rawSpec: '~0.6.1',
+82 silly cache add   spec: '>=0.6.1 <0.7.0',
+82 silly cache add   type: 'range' }
+83 silly addNamed bignum@>=0.6.1 <0.7.0
+84 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for bignum
+85 silly addNameRange { name: 'bignum', range: '>=0.6.1 <0.7.0', hasData: false }
+86 silly mapToRegistry name bignum
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'bignum',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   escapedName: 'bignum',
+89 silly mapToRegistry   name: 'bignum',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/bignum
+91 verbose addNameRange registry:https://registry.npmjs.org/bignum not in flight; fetching
+92 verbose get https://registry.npmjs.org/bignum not expired, no request
+93 silly addNameRange number 2 { name: 'bignum', range: '>=0.6.1 <0.7.0', hasData: true }
+94 silly addNameRange versions [ 'bignum',
+94 silly addNameRange   [ '0.4.0',
+94 silly addNameRange     '0.4.1',
+94 silly addNameRange     '0.5.0',
+94 silly addNameRange     '0.5.1',
+94 silly addNameRange     '0.5.2',
+94 silly addNameRange     '0.5.3',
+94 silly addNameRange     '0.5.4',
+94 silly addNameRange     '0.6.0',
+94 silly addNameRange     '0.6.1',
+94 silly addNameRange     '0.6.2',
+94 silly addNameRange     '0.7.0',
+94 silly addNameRange     '0.8.0',
+94 silly addNameRange     '0.9.0',
+94 silly addNameRange     '0.9.1',
+94 silly addNameRange     '0.9.2',
+94 silly addNameRange     '0.9.3',
+94 silly addNameRange     '0.10.0',
+94 silly addNameRange     '0.10.1',
+94 silly addNameRange     '0.10.2',
+94 silly addNameRange     '0.11.0',
+94 silly addNameRange     '0.12.0',
+94 silly addNameRange     '0.12.1',
+94 silly addNameRange     '0.12.2',
+94 silly addNameRange     '0.12.3',
+94 silly addNameRange     '0.12.4',
+94 silly addNameRange     '0.12.5' ] ]
+95 silly pickManifestFromRegistryMetadata spec >=0.6.1 <0.7.0 tag latest versions [ '0.4.0',
+95 silly pickManifestFromRegistryMetadata   '0.4.1',
+95 silly pickManifestFromRegistryMetadata   '0.5.0',
+95 silly pickManifestFromRegistryMetadata   '0.5.1',
+95 silly pickManifestFromRegistryMetadata   '0.5.2',
+95 silly pickManifestFromRegistryMetadata   '0.5.3',
+95 silly pickManifestFromRegistryMetadata   '0.5.4',
+95 silly pickManifestFromRegistryMetadata   '0.6.0',
+95 silly pickManifestFromRegistryMetadata   '0.6.1',
+95 silly pickManifestFromRegistryMetadata   '0.6.2',
+95 silly pickManifestFromRegistryMetadata   '0.7.0',
+95 silly pickManifestFromRegistryMetadata   '0.8.0',
+95 silly pickManifestFromRegistryMetadata   '0.9.0',
+95 silly pickManifestFromRegistryMetadata   '0.9.1',
+95 silly pickManifestFromRegistryMetadata   '0.9.2',
+95 silly pickManifestFromRegistryMetadata   '0.9.3',
+95 silly pickManifestFromRegistryMetadata   '0.10.0',
+95 silly pickManifestFromRegistryMetadata   '0.10.1',
+95 silly pickManifestFromRegistryMetadata   '0.10.2',
+95 silly pickManifestFromRegistryMetadata   '0.11.0',
+95 silly pickManifestFromRegistryMetadata   '0.12.0',
+95 silly pickManifestFromRegistryMetadata   '0.12.1',
+95 silly pickManifestFromRegistryMetadata   '0.12.2',
+95 silly pickManifestFromRegistryMetadata   '0.12.3',
+95 silly pickManifestFromRegistryMetadata   '0.12.4',
+95 silly pickManifestFromRegistryMetadata   '0.12.5' ]
+96 silly addNamed bignum@0.6.2
+97 verbose addNamed "0.6.2" is a plain semver version for bignum
+98 silly cache afterAdd bignum@0.6.2
+99 verbose afterAdd C:\Users\Gaurav\AppData\Roaming\npm-cache\bignum\0.6.2\package\package.json not in flight; writing
+100 verbose correctMkdir C:\Users\Gaurav\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+101 verbose afterAdd C:\Users\Gaurav\AppData\Roaming\npm-cache\bignum\0.6.2\package\package.json written
+102 silly loadAllDepsIntoIdealTree Finishing
+103 silly loadIdealTree Finishing
+104 silly currentTree node-blog-api@0.0.0
+104 silly currentTree +-- accepts@1.3.5
+104 silly currentTree +-- align-text@0.1.4
+104 silly currentTree +-- amdefine@1.0.1
+104 silly currentTree +-- array-flatten@1.1.1
+104 silly currentTree +-- async@1.5.2
+104 silly currentTree +-- basic-auth@1.1.0
+104 silly currentTree +-- bluebird@3.5.0
+104 silly currentTree +-- body-parser@1.17.2
+104 silly currentTree | `-- debug@2.6.7
+104 silly currentTree +-- bson@1.0.6
+104 silly currentTree +-- bytes@2.4.0
+104 silly currentTree +-- camelcase@1.2.1
+104 silly currentTree +-- center-align@0.1.3
+104 silly currentTree +-- cliui@2.1.0
+104 silly currentTree | `-- wordwrap@0.0.2
+104 silly currentTree +-- content-disposition@0.5.2
+104 silly currentTree +-- content-type@1.0.4
+104 silly currentTree +-- cookie-parser@1.4.3
+104 silly currentTree +-- cookie-signature@1.0.6
+104 silly currentTree +-- cookie@0.3.1
+104 silly currentTree +-- debug@2.6.9
+104 silly currentTree +-- decamelize@1.2.0
+104 silly currentTree +-- depd@1.1.2
+104 silly currentTree +-- destroy@1.0.4
+104 silly currentTree +-- ee-first@1.1.1
+104 silly currentTree +-- encodeurl@1.0.2
+104 silly currentTree +-- escape-html@1.0.3
+104 silly currentTree +-- etag@1.8.1
+104 silly currentTree +-- express@4.15.5
+104 silly currentTree | +-- qs@6.5.0
+104 silly currentTree | `-- statuses@1.3.1
+104 silly currentTree +-- extend@3.0.1
+104 silly currentTree +-- finalhandler@1.0.6
+104 silly currentTree | `-- statuses@1.3.1
+104 silly currentTree +-- foreachasync@3.0.0
+104 silly currentTree +-- forwarded@0.1.2
+104 silly currentTree +-- fresh@0.5.2
+104 silly currentTree +-- handlebars@4.0.5
+104 silly currentTree +-- hbs@4.0.1
+104 silly currentTree +-- http-errors@1.6.2
+104 silly currentTree | `-- depd@1.1.1
+104 silly currentTree +-- iconv-lite@0.4.15
+104 silly currentTree +-- inherits@2.0.3
+104 silly currentTree +-- ipaddr.js@1.4.0
+104 silly currentTree +-- is-buffer@1.1.6
+104 silly currentTree +-- kareem@2.0.5
+104 silly currentTree +-- kind-of@3.2.2
+104 silly currentTree +-- lazy-cache@1.0.4
+104 silly currentTree +-- lodash.get@4.4.2
+104 silly currentTree +-- lodash@4.17.5
+104 silly currentTree +-- longest@1.0.1
+104 silly currentTree +-- media-typer@0.3.0
+104 silly currentTree +-- merge-descriptors@1.0.1
+104 silly currentTree +-- methods@1.1.2
+104 silly currentTree +-- mime-db@1.33.0
+104 silly currentTree +-- mime-types@2.1.18
+104 silly currentTree +-- mime@1.3.4
+104 silly currentTree +-- minimist@0.0.10
+104 silly currentTree +-- mongodb-core@3.0.4
+104 silly currentTree +-- mongodb@3.0.4
+104 silly currentTree +-- mongoose-auto-increment@5.0.1
+104 silly currentTree +-- mongoose-legacy-pluralize@1.0.2
+104 silly currentTree +-- mongoose@5.0.10
+104 silly currentTree | `-- async@2.1.4
+104 silly currentTree +-- morgan@1.8.2
+104 silly currentTree | `-- debug@2.6.8
+104 silly currentTree +-- mpath@0.3.0
+104 silly currentTree +-- mquery@3.0.0
+104 silly currentTree | `-- sliced@0.0.5
+104 silly currentTree +-- ms@2.0.0
+104 silly currentTree +-- negotiator@0.6.1
+104 silly currentTree +-- on-finished@2.3.0
+104 silly currentTree +-- on-headers@1.0.1
+104 silly currentTree +-- optimist@0.6.1
+104 silly currentTree +-- parseurl@1.3.2
+104 silly currentTree +-- path-to-regexp@0.1.7
+104 silly currentTree +-- proxy-addr@1.1.5
+104 silly currentTree +-- qs@6.4.0
+104 silly currentTree +-- range-parser@1.2.0
+104 silly currentTree +-- raw-body@2.2.0
+104 silly currentTree +-- regexp-clone@0.0.1
+104 silly currentTree +-- repeat-string@1.6.1
+104 silly currentTree +-- require_optional@1.0.1
+104 silly currentTree +-- resolve-from@2.0.0
+104 silly currentTree +-- right-align@0.1.3
+104 silly currentTree +-- safe-buffer@5.1.1
+104 silly currentTree +-- semver@5.5.0
+104 silly currentTree +-- send@0.15.6
+104 silly currentTree | `-- statuses@1.3.1
+104 silly currentTree +-- serve-favicon@2.4.5
+104 silly currentTree +-- serve-static@1.12.6
+104 silly currentTree +-- setprototypeof@1.0.3
+104 silly currentTree +-- sliced@1.0.1
+104 silly currentTree +-- source-map@0.4.4
+104 silly currentTree +-- statuses@1.4.0
+104 silly currentTree +-- type-is@1.6.16
+104 silly currentTree +-- uglify-js@2.8.29
+104 silly currentTree | `-- source-map@0.5.7
+104 silly currentTree +-- uglify-to-browserify@1.0.2
+104 silly currentTree +-- unpipe@1.0.0
+104 silly currentTree +-- utils-merge@1.0.0
+104 silly currentTree +-- vary@1.1.2
+104 silly currentTree +-- walk@2.3.9
+104 silly currentTree +-- window-size@0.1.0
+104 silly currentTree +-- wordwrap@0.0.3
+104 silly currentTree `-- yargs@3.10.0
+105 silly idealTree node-blog-api@0.0.0
+105 silly idealTree +-- accepts@1.3.5
+105 silly idealTree +-- align-text@0.1.4
+105 silly idealTree +-- amdefine@1.0.1
+105 silly idealTree +-- array-flatten@1.1.1
+105 silly idealTree +-- async@1.5.2
+105 silly idealTree +-- basic-auth@1.1.0
+105 silly idealTree +-- bignum@0.6.2
+105 silly idealTree +-- bluebird@3.5.0
+105 silly idealTree +-- body-parser@1.17.2
+105 silly idealTree | `-- debug@2.6.7
+105 silly idealTree +-- bson@1.0.6
+105 silly idealTree +-- bytes@2.4.0
+105 silly idealTree +-- camelcase@1.2.1
+105 silly idealTree +-- center-align@0.1.3
+105 silly idealTree +-- cliui@2.1.0
+105 silly idealTree | `-- wordwrap@0.0.2
+105 silly idealTree +-- content-disposition@0.5.2
+105 silly idealTree +-- content-type@1.0.4
+105 silly idealTree +-- cookie-parser@1.4.3
+105 silly idealTree +-- cookie-signature@1.0.6
+105 silly idealTree +-- cookie@0.3.1
+105 silly idealTree +-- debug@2.6.9
+105 silly idealTree +-- decamelize@1.2.0
+105 silly idealTree +-- depd@1.1.2
+105 silly idealTree +-- destroy@1.0.4
+105 silly idealTree +-- ee-first@1.1.1
+105 silly idealTree +-- encodeurl@1.0.2
+105 silly idealTree +-- escape-html@1.0.3
+105 silly idealTree +-- etag@1.8.1
+105 silly idealTree +-- express@4.15.5
+105 silly idealTree | +-- qs@6.5.0
+105 silly idealTree | `-- statuses@1.3.1
+105 silly idealTree +-- extend@3.0.1
+105 silly idealTree +-- finalhandler@1.0.6
+105 silly idealTree | `-- statuses@1.3.1
+105 silly idealTree +-- foreachasync@3.0.0
+105 silly idealTree +-- forwarded@0.1.2
+105 silly idealTree +-- fresh@0.5.2
+105 silly idealTree +-- handlebars@4.0.5
+105 silly idealTree +-- hbs@4.0.1
+105 silly idealTree +-- http-errors@1.6.2
+105 silly idealTree | `-- depd@1.1.1
+105 silly idealTree +-- iconv-lite@0.4.15
+105 silly idealTree +-- inherits@2.0.3
+105 silly idealTree +-- ipaddr.js@1.4.0
+105 silly idealTree +-- is-buffer@1.1.6
+105 silly idealTree +-- kareem@2.0.5
+105 silly idealTree +-- kind-of@3.2.2
+105 silly idealTree +-- lazy-cache@1.0.4
+105 silly idealTree +-- lodash.get@4.4.2
+105 silly idealTree +-- lodash@4.17.5
+105 silly idealTree +-- longest@1.0.1
+105 silly idealTree +-- media-typer@0.3.0
+105 silly idealTree +-- merge-descriptors@1.0.1
+105 silly idealTree +-- methods@1.1.2
+105 silly idealTree +-- mime-db@1.33.0
+105 silly idealTree +-- mime-types@2.1.18
+105 silly idealTree +-- mime@1.3.4
+105 silly idealTree +-- minimist@0.0.10
+105 silly idealTree +-- mongodb-core@3.0.4
+105 silly idealTree +-- mongodb@3.0.4
+105 silly idealTree +-- mongoose-auto-increment@5.0.1
+105 silly idealTree +-- mongoose-legacy-pluralize@1.0.2
+105 silly idealTree +-- mongoose-shortid@0.4.2
+105 silly idealTree +-- mongoose@5.0.10
+105 silly idealTree | `-- async@2.1.4
+105 silly idealTree +-- morgan@1.8.2
+105 silly idealTree | `-- debug@2.6.8
+105 silly idealTree +-- mpath@0.3.0
+105 silly idealTree +-- mquery@3.0.0
+105 silly idealTree | `-- sliced@0.0.5
+105 silly idealTree +-- ms@2.0.0
+105 silly idealTree +-- negotiator@0.6.1
+105 silly idealTree +-- on-finished@2.3.0
+105 silly idealTree +-- on-headers@1.0.1
+105 silly idealTree +-- optimist@0.6.1
+105 silly idealTree +-- parseurl@1.3.2
+105 silly idealTree +-- path-to-regexp@0.1.7
+105 silly idealTree +-- proxy-addr@1.1.5
+105 silly idealTree +-- qs@6.4.0
+105 silly idealTree +-- range-parser@1.2.0
+105 silly idealTree +-- raw-body@2.2.0
+105 silly idealTree +-- regexp-clone@0.0.1
+105 silly idealTree +-- repeat-string@1.6.1
+105 silly idealTree +-- require_optional@1.0.1
+105 silly idealTree +-- resolve-from@2.0.0
+105 silly idealTree +-- right-align@0.1.3
+105 silly idealTree +-- safe-buffer@5.1.1
+105 silly idealTree +-- semver@5.5.0
+105 silly idealTree +-- send@0.15.6
+105 silly idealTree | `-- statuses@1.3.1
+105 silly idealTree +-- serve-favicon@2.4.5
+105 silly idealTree +-- serve-static@1.12.6
+105 silly idealTree +-- setprototypeof@1.0.3
+105 silly idealTree +-- sliced@1.0.1
+105 silly idealTree +-- source-map@0.4.4
+105 silly idealTree +-- statuses@1.4.0
+105 silly idealTree +-- type-is@1.6.16
+105 silly idealTree +-- uglify-js@2.8.29
+105 silly idealTree | `-- source-map@0.5.7
+105 silly idealTree +-- uglify-to-browserify@1.0.2
+105 silly idealTree +-- unpipe@1.0.0
+105 silly idealTree +-- utils-merge@1.0.0
+105 silly idealTree +-- vary@1.1.2
+105 silly idealTree +-- walk@2.3.9
+105 silly idealTree +-- window-size@0.1.0
+105 silly idealTree +-- wordwrap@0.0.3
+105 silly idealTree `-- yargs@3.10.0
+106 silly generateActionsToTake Starting
+107 silly install generateActionsToTake
+108 silly generateActionsToTake Finishing
+109 silly diffTrees action count 2
+110 silly diffTrees add bignum@0.6.2
+111 silly diffTrees add mongoose-shortid@0.4.2
+112 silly decomposeActions action count 16
+113 silly decomposeActions fetch bignum@0.6.2
+114 silly decomposeActions extract bignum@0.6.2
+115 silly decomposeActions test bignum@0.6.2
+116 silly decomposeActions preinstall bignum@0.6.2
+117 silly decomposeActions build bignum@0.6.2
+118 silly decomposeActions install bignum@0.6.2
+119 silly decomposeActions postinstall bignum@0.6.2
+120 silly decomposeActions finalize bignum@0.6.2
+121 silly decomposeActions fetch mongoose-shortid@0.4.2
+122 silly decomposeActions extract mongoose-shortid@0.4.2
+123 silly decomposeActions test mongoose-shortid@0.4.2
+124 silly decomposeActions preinstall mongoose-shortid@0.4.2
+125 silly decomposeActions build mongoose-shortid@0.4.2
+126 silly decomposeActions install mongoose-shortid@0.4.2
+127 silly decomposeActions postinstall mongoose-shortid@0.4.2
+128 silly decomposeActions finalize mongoose-shortid@0.4.2
+129 silly runTopLevelLifecycles Starting
+130 silly executeActions Starting
+131 silly install executeActions
+132 silly doSerial global-install 0
+133 silly doParallel fetch 2
+134 verbose correctMkdir C:\Users\Gaurav\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+135 verbose lock using C:\Users\Gaurav\AppData\Roaming\npm-cache\_locks\staging-227123cffb9dd7f5.lock for C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging
+136 silly doParallel extract 2
+137 silly extract bignum@0.6.2
+138 silly extract mongoose-shortid@0.4.2
+139 verbose unbuild node_modules\.staging\bignum-eaab295b
+140 verbose unbuild node_modules\.staging\mongoose-shortid-c744a8fd
+141 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\bignum-eaab295b is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+142 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\bignum-eaab295b
+143 verbose tar unpack C:\Users\Gaurav\AppData\Roaming\npm-cache\bignum\0.6.2\package.tgz
+144 verbose tar unpacking to C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\bignum-eaab295b
+145 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\bignum-eaab295b is being purged
+146 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\bignum-eaab295b
+147 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\mongoose-shortid-c744a8fd is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+148 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\mongoose-shortid-c744a8fd
+149 silly gunzTarPerm modes [ '777', '666' ]
+150 verbose tar unpack C:\Users\Gaurav\AppData\Roaming\npm-cache\mongoose-shortid\0.4.2\package.tgz
+151 verbose tar unpacking to C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\mongoose-shortid-c744a8fd
+152 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\mongoose-shortid-c744a8fd is being purged
+153 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\mongoose-shortid-c744a8fd
+154 silly gunzTarPerm modes [ '777', '666' ]
+155 silly gunzTarPerm extractEntry package.json
+156 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+157 silly gunzTarPerm extractEntry package.json
+158 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+159 silly gunzTarPerm extractEntry .npmignore
+160 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+161 silly gunzTarPerm extractEntry index.js
+162 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+163 silly gunzTarPerm extractEntry .npmignore
+164 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+165 silly gunzTarPerm extractEntry README.md
+166 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+167 silly gunzTarPerm extractEntry .travis.yml
+168 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+169 silly gunzTarPerm extractEntry README.markdown
+170 silly gunzTarPerm modified mode [ 'README.markdown', 420, 438 ]
+171 silly gunzTarPerm extractEntry LICENSE
+172 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+173 silly gunzTarPerm extractEntry index.js
+174 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+175 silly gunzTarPerm extractEntry lib/genid.js
+176 silly gunzTarPerm modified mode [ 'lib/genid.js', 420, 438 ]
+177 silly gunzTarPerm extractEntry lib/index.js
+178 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+179 silly gunzTarPerm extractEntry bignum.cc
+180 silly gunzTarPerm modified mode [ 'bignum.cc', 420, 438 ]
+181 silly gunzTarPerm extractEntry lib/shortid.js
+182 silly gunzTarPerm modified mode [ 'lib/shortid.js', 420, 438 ]
+183 silly gunzTarPerm extractEntry binding.gyp
+184 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+185 silly gunzTarPerm extractEntry examples/gen.js
+186 silly gunzTarPerm modified mode [ 'examples/gen.js', 420, 438 ]
+187 silly gunzTarPerm extractEntry examples/perfect.js
+188 silly gunzTarPerm modified mode [ 'examples/perfect.js', 420, 438 ]
+189 silly gunzTarPerm extractEntry examples/simple.js
+190 silly gunzTarPerm modified mode [ 'examples/simple.js', 420, 438 ]
+191 silly gunzTarPerm extractEntry test/big.js
+192 silly gunzTarPerm modified mode [ 'test/big.js', 420, 438 ]
+193 silly gunzTarPerm extractEntry test/buf.js
+194 silly gunzTarPerm modified mode [ 'test/buf.js', 420, 438 ]
+195 silly gunzTarPerm extractEntry test/seed.js
+196 silly gunzTarPerm modified mode [ 'test/seed.js', 420, 438 ]
+197 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\mongoose-shortid-c744a8fd\node_modules is being purged
+198 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\mongoose-shortid-c744a8fd\node_modules
+199 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\bignum-eaab295b\node_modules is being purged
+200 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging\bignum-eaab295b\node_modules
+201 silly doParallel preinstall 2
+202 silly preinstall bignum@0.6.2
+203 info lifecycle bignum@0.6.2~preinstall: bignum@0.6.2
+204 silly preinstall mongoose-shortid@0.4.2
+205 info lifecycle mongoose-shortid@0.4.2~preinstall: mongoose-shortid@0.4.2
+206 silly lifecycle bignum@0.6.2~preinstall: no script for preinstall, continuing
+207 silly lifecycle mongoose-shortid@0.4.2~preinstall: no script for preinstall, continuing
+208 silly doReverseSerial remove 0
+209 silly doSerial move 0
+210 silly doSerial finalize 2
+211 silly finalize C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+212 silly finalize C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+213 silly doSerial build 2
+214 silly build bignum@0.6.2
+215 info linkStuff bignum@0.6.2
+216 silly linkStuff bignum@0.6.2 has C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules as its parent node_modules
+217 verbose linkBins bignum@0.6.2
+218 verbose linkMans bignum@0.6.2
+219 silly build mongoose-shortid@0.4.2
+220 info linkStuff mongoose-shortid@0.4.2
+221 silly linkStuff mongoose-shortid@0.4.2 has C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules as its parent node_modules
+222 verbose linkBins mongoose-shortid@0.4.2
+223 verbose linkMans mongoose-shortid@0.4.2
+224 silly doSerial global-link 0
+225 silly doParallel update-linked 0
+226 silly doSerial install 2
+227 silly install bignum@0.6.2
+228 info lifecycle bignum@0.6.2~install: bignum@0.6.2
+229 verbose lifecycle bignum@0.6.2~install: unsafe-perm in lifecycle true
+230 verbose lifecycle bignum@0.6.2~install: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum\node_modules\.bin;C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone;C:\Program Files (x86)\Dev-Cpp\MinGW64\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\Users\Gaurav\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\Gaurav\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\Gaurav\AppData\Local\Programs\Python\Python35-32\;C:\Program Files\MongoDB\Server\3.4\bin\;C:\Program Files\Heroku\bin;C:\Users\Gaurav\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files\Apache Software Foundation\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin
+231 verbose lifecycle bignum@0.6.2~install: CWD: C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+232 silly lifecycle bignum@0.6.2~install: Args: [ '/d /s /c', 'node-gyp configure build' ]
+233 silly lifecycle bignum@0.6.2~install: Returned: code: 1  signal: null
+234 info lifecycle bignum@0.6.2~install: Failed to exec install script
+235 verbose unlock done using C:\Users\Gaurav\AppData\Roaming\npm-cache\_locks\staging-227123cffb9dd7f5.lock for C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\.staging
+236 silly rollbackFailedOptional Starting
+237 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+238 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+239 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+240 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+241 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+242 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+243 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+244 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+245 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+246 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+247 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+248 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+249 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+250 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+251 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+252 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+253 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+254 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+255 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+256 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+257 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+258 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+259 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+260 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+261 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+262 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+263 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+264 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+265 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+266 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+267 silly gentlyRm C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid is being purged from base C:\Users\Gaurav\Desktop\Node\node_blog_api
+268 verbose gentlyRm don't care about contents; nuking C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+269 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+270 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+271 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+272 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+273 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+274 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+275 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+276 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\bignum
+277 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+278 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+279 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+280 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+281 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+282 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+283 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+284 silly vacuum-fs purging C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules\mongoose-shortid
+285 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+286 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+287 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+288 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+289 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+290 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+291 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+292 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+293 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+294 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+295 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+296 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+297 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+298 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+299 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+300 silly vacuum-fs quitting because other entries in C:\Users\Gaurav\Desktop\Node\node_blog_api\node_modules
+301 silly rollbackFailedOptional Finishing
+302 silly runTopLevelLifecycles Finishing
+303 silly install printInstalled
+304 warn mongoose-auto-increment@5.0.1 requires a peer of mongoose@^4.1.12 but none was installed.
+305 verbose If you need help, you may report this error at:
+305 verbose     <https://github.com/npm/npm/issues>
+306 warn mongoose-shortid@0.4.2 requires a peer of mongoose@>= 3.5.0 < 4 but none was installed.
+307 verbose If you need help, you may report this error at:
+307 verbose     <https://github.com/npm/npm/issues>
+308 verbose stack Error: bignum@0.6.2 install: `node-gyp configure build`
+308 verbose stack Exit status 1
+308 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:279:16)
+308 verbose stack     at emitTwo (events.js:106:13)
+308 verbose stack     at EventEmitter.emit (events.js:192:7)
+308 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+308 verbose stack     at emitTwo (events.js:106:13)
+308 verbose stack     at ChildProcess.emit (events.js:192:7)
+308 verbose stack     at maybeClose (internal/child_process.js:890:16)
+308 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+309 verbose pkgid bignum@0.6.2
+310 verbose cwd C:\Users\Gaurav\Desktop\Node\node_blog_api
+311 error Windows_NT 6.3.9600
+312 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongoose-shortid" "--save"
+313 error node v7.5.0
+314 error npm  v4.1.2
+315 error code ELIFECYCLE
+316 error bignum@0.6.2 install: `node-gyp configure build`
+316 error Exit status 1
+317 error Failed at the bignum@0.6.2 install script 'node-gyp configure build'.
+317 error Make sure you have the latest version of node.js and npm installed.
+317 error If you do, this is most likely a problem with the bignum package,
+317 error not with npm itself.
+317 error Tell the author that this fails on your system:
+317 error     node-gyp configure build
+317 error You can get information on how to open an issue for this project with:
+317 error     npm bugs bignum
+317 error Or if that isn't available, you can get their info via:
+317 error     npm owner ls bignum
+317 error There is likely additional logging output above.
+318 verbose exit [ 1, true ]
