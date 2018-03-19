@@ -6,7 +6,7 @@ var {Blog} = require('../models/blog');
 router.use('/',(req, res, next)=>{
     var {title,categories,content} = req.body;
     var id = getId();
-    console.log('id '+id);
+
 
     var blogItem =new Blog({
         id,
